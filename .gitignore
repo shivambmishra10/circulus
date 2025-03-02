@@ -1,0 +1,18 @@
+# Django & Python
+*.pyc
+__pycache__/
+db.sqlite3
+.env
+*.log
+
+# Migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Virtual Environment
+venv/
+env/
+
+# VS Code
+.vscode/
+backend/
